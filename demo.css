@@ -1,0 +1,96 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+
+
+body {
+    background-image: url("/img/facerecognition.png");
+    background-repeat: none;
+    background-size: cover;
+    
+    
+}
+#myFile
+{
+    font-size: x-large;
+    margin-top: 50px;
+
+}
+#myFile:hover
+{
+      color: aqua;
+}
+#filesubmit
+{
+    font-size: x-large;
+}
+.action
+{
+    text-align: center;
+}
+#well
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.upload-photo
+{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+header
+{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    min-height: 100%;
+}
+footer
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    bottom: 0;
+    
+}
+.footerbar
+{
+    color: aqua;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar li a
+{
+    padding: 0px 30px;
+    display: inline-block;
+    list-style: none;
+    font-size: x-large;
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    position:relative;
+}
+.navbar li a:before
+{
+          content: "";
+          position: absolute;
+          bottom: -2px;
+          height: 3px;
+          width: 0;
+          background: aqua;
+          border-radius: 50%;
+          transition: width 0.3s ease;
+}
+.navbar li a:hover:before
+{
+    width: 100%;
+}
