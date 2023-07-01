@@ -1,0 +1,64 @@
+*
+{
+    margin:50px;
+    padding: 0%;
+}
+.email
+{
+    
+    height: 40px;
+    width: 270px;
+    position: relative;
+    top: -120px;
+    left: -50px;
+}
+.password
+{
+    height: 40px;
+    width: 270px;
+    position: relative;
+
+}
+.card
+{
+    text-align: center;
+    height: 500px;
+    
+}
+p
+{
+    font-size: large;
+    
+}
+body
+{
+    border: 3px pink solid;
+    box-shadow: 20px 20px 50px grey;
+    display: block;
+}
+h1
+{
+    background-color: pink;
+    color: white;
+    height: 50px;
+    width: 376px;
+    position: relative;
+    left: -151px;
+    top: -51px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+.bottom
+{
+    width: 30px;
+}
+p
+{
+    position: relative;
+    top: -50px;
+}
+.pw
+{
+    position: relative;
+}
